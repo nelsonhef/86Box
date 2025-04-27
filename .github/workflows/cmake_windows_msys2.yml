@@ -40,18 +40,20 @@ jobs:
       fail-fast: true
       matrix:
         build:
-          - name: Dev Debug
-            preset: dev_debug
-            slug: -Dev-Debug
-          - name: Dev
-            preset: development
-            slug: -Dev
+#         - name: Dev Debug
+#           preset: dev_debug
+#           slug: -Dev-Debug
+#         - name: Dev
+#           preset: development
+#           slug: -Dev
+          - name: Regular
+            preset: regular
         dynarec:
           - name: ODR
             new: off
-          - name: NDR
-            new: on
-            slug: -NDR
+#         - name: NDR
+#           new: on
+#           slug: -NDR
         environment:
           - msystem: MINGW64
             toolchain: ./cmake/flags-gcc-x86_64.cmake
