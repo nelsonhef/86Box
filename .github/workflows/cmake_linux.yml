@@ -37,25 +37,25 @@ jobs:
       fail-fast: true
       matrix:
         build:
-#          - name: Regular
-#            preset: regular
-          - name: Debug
-            preset: dev_debug
-            slug: -Debug
-          - name: Dev
-            preset: development
-            slug: -Dev
+          - name: Regular
+            preset: regular
+#         - name: Debug
+#           preset: dev_debug
+#           slug: -Debug
+#         - name: Dev
+#           preset: development
+#           slug: -Dev
         dynarec:
           - name: ODR
             new: off
             slug: -ODR
-          - name: NDR
-            new: on
-            slug: -NDR
+#         - name: NDR
+#           new: on
+#           slug: -NDR
         ui:
-          - name: SDL GUI
-            qt: off
-            static: on
+#         - name: SDL GUI
+#           qt: off
+#           static: on
           - name: Qt GUI
             qt: on
             slug: -Qt
