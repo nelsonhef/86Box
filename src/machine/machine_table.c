@@ -68,6 +68,8 @@ extern const device_t ibmxt286_device;
 extern const device_t pb450_device;
 extern const device_t jukopc_device;
 extern const device_t vendex_device;
+extern const device_t c5sbm2_device;
+extern const device_t sb486pv_device;
 
 const machine_filter_t machine_types[] = {
     { "None",                             MACHINE_TYPE_NONE       },
@@ -5434,11 +5436,51 @@ const machine_t machines[] = {
     },
     /* Has IBM AT KBC firmware. */
     {
-        .name = "[ISA] Micronics 09-00021",
+        .name = "[ISA] Micronics 09-00021 (Tandon BIOS)",
         .internal_name = "micronics386",
         .type = MACHINE_TYPE_386DX,
         .chipset = MACHINE_CHIPSET_DISCRETE,
         .init = machine_at_micronics386_init,
+        .p1_handler = NULL,
+        .gpio_handler = NULL,
+        .available_flag = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu = {
+            .package = CPU_PKG_386DX,
+            .block = CPU_BLOCK_NONE,
+            .min_bus = 0,
+            .max_bus = 0,
+            .min_voltage = 0,
+            .max_voltage = 0,
+            .min_multi = 0,
+            .max_multi = 0
+        },
+        .bus_flags = MACHINE_AT,
+        .flags = MACHINE_APM,
+        .ram = {
+            .min = 512,
+            .max = 8192,
+            .step = 128
+        },
+        .nvrmask = 127,
+        .kbc_device = NULL,
+        .kbc_p1 = 0xff,
+        .gpio = 0xffffffff,
+        .gpio_acpi = 0xffffffff,
+        .device = NULL,
+        .fdc_device = NULL,
+        .sio_device = NULL,
+        .vid_device = NULL,
+        .snd_device = NULL,
+        .net_device = NULL
+    },
+    /* Has IBM AT KBC firmware. */
+    {
+        .name = "[ISA] Micronics 09-00021 (Phoenix BIOS)",
+        .internal_name = "micronics386px",
+        .type = MACHINE_TYPE_386DX,
+        .chipset = MACHINE_CHIPSET_DISCRETE,
+        .init = machine_at_micronics386px_init,
         .p1_handler = NULL,
         .gpio_handler = NULL,
         .available_flag = MACHINE_AVAILABLE,
@@ -5618,6 +5660,46 @@ const machine_t machines[] = {
         .ram = {
             .min = 1024,
             .max = 32768,
+            .step = 1024
+        },
+        .nvrmask = 127,
+        .kbc_device = NULL,
+        .kbc_p1 = 0xff,
+        .gpio = 0xffffffff,
+        .gpio_acpi = 0xffffffff,
+        .device = NULL,
+        .fdc_device = NULL,
+        .sio_device = NULL,
+        .vid_device = NULL,
+        .snd_device = NULL,
+        .net_device = NULL
+    },
+    /* Has Award KBC firmware. */
+    {
+        .name = "[SiS 310] ASUS 386/33-64K",
+        .internal_name = "asus386_3364k",
+        .type = MACHINE_TYPE_386DX,
+        .chipset = MACHINE_CHIPSET_SIS_310,
+        .init = machine_at_asus386_3364k_init,
+        .p1_handler = NULL,
+        .gpio_handler = NULL,
+        .available_flag = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu = {
+            .package = CPU_PKG_386DX,
+            .block = CPU_BLOCK_NONE,
+            .min_bus = 0,
+            .max_bus = 0,
+            .min_voltage = 0,
+            .max_voltage = 0,
+            .min_multi = 0,
+            .max_multi = 0
+        },
+        .bus_flags = MACHINE_AT,
+        .flags = MACHINE_APM,
+        .ram = {
+            .min = 1024,
+            .max = 16384,
             .step = 1024
         },
         .nvrmask = 127,
@@ -6322,6 +6404,46 @@ const machine_t machines[] = {
         .snd_device = NULL,
         .net_device = NULL
     },
+    /* Has AMIKey F KBC firmware. */
+    {
+        .name = "[Symphony SL42C460] DTK PKM-0031Y",
+        .internal_name = "dtk461",
+        .type = MACHINE_TYPE_486,
+        .chipset = MACHINE_CHIPSET_SYMPHONY_SL82C460,
+        .init = machine_at_dtk461_init,
+        .p1_handler = NULL,
+        .gpio_handler = NULL,
+        .available_flag = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu = {
+            .package = CPU_PKG_SOCKET1,
+            .block = CPU_BLOCK_NONE,
+            .min_bus = 0,
+            .max_bus = 0,
+            .min_voltage = 0,
+            .max_voltage = 0,
+            .min_multi = 0,
+            .max_multi = 0
+        },
+        .bus_flags = MACHINE_AT,
+        .flags = MACHINE_APM,
+        .ram = {
+            .min = 1024,
+            .max = 32768,
+            .step = 1024
+        },
+        .nvrmask = 127,
+        .kbc_device = NULL,
+        .kbc_p1 = 0xff,
+        .gpio = 0xffffffff,
+        .gpio_acpi = 0xffffffff,
+        .device = NULL,
+        .fdc_device = NULL,
+        .sio_device = NULL,
+        .vid_device = NULL,
+        .snd_device = NULL,
+        .net_device = NULL
+    },
     /* The chip is a Lance LT38C41, a clone of the Intel 8041, and the BIOS sends
        commands BC, BD, and C9 which exist on both AMIKey and Phoenix MultiKey/42,
        but it does not write a byte after C9, which is consistent with AMIKey, so
@@ -6405,7 +6527,7 @@ const machine_t machines[] = {
         .snd_device = NULL,
         .net_device = NULL
     },
-    /* Has a standard IBM PS/2 KBC firmware or a clone thereof. */
+    /* Has a VLSI VL82C114 Combination I/O which holds the KBC. */
     {
         .name = "[VLSI 82C481] Siemens Nixdorf D824",
         .internal_name = "d824",
@@ -6433,7 +6555,7 @@ const machine_t machines[] = {
             .max = 32768,
             .step = 2048
         },
-        .nvrmask = 127,
+        .nvrmask = 255,
         .kbc_device = NULL,
         .kbc_p1 = 0xff,
         .gpio = 0xffffffff,
@@ -6652,6 +6774,46 @@ const machine_t machines[] = {
         .snd_device = NULL,
         .net_device = NULL
     },
+    /* Has AMI MegaKey KBC.  */
+    {
+        .name = "[i420TX] J-Bond PCI400C-A",
+        .internal_name = "pci400ca",
+        .type = MACHINE_TYPE_486_S2,
+        .chipset = MACHINE_CHIPSET_INTEL_420TX,
+        .init = machine_at_pci400ca_init,
+        .p1_handler = NULL,
+        .gpio_handler = NULL,
+        .available_flag = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu = {
+            .package = CPU_PKG_SOCKET3,
+            .block = CPU_BLOCK_NONE,
+            .min_bus = 0,
+            .max_bus = 0,
+            .min_voltage = 0,
+            .max_voltage = 0,
+            .min_multi = 0,
+            .max_multi = 0
+        },
+        .bus_flags = MACHINE_PCI,
+        .flags = MACHINE_SCSI,
+        .ram = {
+            .min = 1024,
+            .max = 65536,
+            .step = 1024
+        },
+        .nvrmask = 127,
+        .kbc_device = &keyboard_at_ami_device,
+        .kbc_p1 = 0xff,
+        .gpio = 0xffffffff,
+        .gpio_acpi = 0xffffffff,
+        .device = NULL,
+        .fdc_device = NULL,
+        .sio_device = NULL,
+        .vid_device = NULL,
+        .snd_device = NULL,
+        .net_device = NULL
+    },
     /* This has a standalone AMI Megakey 1993, which is type 'P'. */
     {
         .name = "[IMS 8848] Tekram G486IP",
@@ -6813,13 +6975,13 @@ const machine_t machines[] = {
         .snd_device = NULL,
         .net_device = NULL
     },
-    /* Has AMI MegaKey KBC.  */
+    /* Has a VLSI VL82C113A SCAMP Combination I/O which holds the KBC. */
     {
-        .name = "[i420TX] J-Bond PCI400C-A",
-        .internal_name = "pci400ca",
+        .name = "[VLSI 82C480] ZEOS Martin",
+        .internal_name = "martin",
         .type = MACHINE_TYPE_486_S2,
-        .chipset = MACHINE_CHIPSET_INTEL_420TX,
-        .init = machine_at_pci400ca_init,
+        .chipset = MACHINE_CHIPSET_VLSI_VL82C480,
+        .init = machine_at_martin_init,
         .p1_handler = NULL,
         .gpio_handler = NULL,
         .available_flag = MACHINE_AVAILABLE,
@@ -6834,15 +6996,15 @@ const machine_t machines[] = {
             .min_multi = 0,
             .max_multi = 0
         },
-        .bus_flags = MACHINE_PCI,
-        .flags = MACHINE_SCSI,
+        .bus_flags = MACHINE_PS2_VLB,
+        .flags = MACHINE_IDE | MACHINE_APM,
         .ram = {
-            .min = 1024,
+            .min = 2048,
             .max = 65536,
-            .step = 1024
+            .step = 2048
         },
         .nvrmask = 127,
-        .kbc_device = &keyboard_at_ami_device,
+        .kbc_device = NULL,
         .kbc_p1 = 0xff,
         .gpio = 0xffffffff,
         .gpio_acpi = 0xffffffff,
@@ -6853,7 +7015,6 @@ const machine_t machines[] = {
         .snd_device = NULL,
         .net_device = NULL
     },
-
 
     /* 486 machines - Socket 3 */
     /* 486 machines with just the ISA slot */
@@ -8352,6 +8513,47 @@ const machine_t machines[] = {
         .fdc_device = NULL,
         .sio_device = NULL,
         .vid_device = NULL,
+        .snd_device = NULL,
+        .net_device = NULL
+    },
+    /* This has an AMI MEGAKey 'P' or 'R' keyboard controller. */
+    {
+        .name = "[i420ZX] ICS SB486PV",
+        .internal_name = "sb486pv",
+        .type = MACHINE_TYPE_486_S3_PCI,
+        .chipset = MACHINE_CHIPSET_INTEL_420ZX,
+        .init = machine_at_sb486pv_init,
+        .p1_handler = NULL,
+        .gpio_handler = NULL,
+        .available_flag = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu = {
+            .package = CPU_PKG_SOCKET3,
+            .block = CPU_BLOCK_NONE,
+            .min_bus = 0,
+            .max_bus = 0,
+            .min_voltage = 0,
+            .max_voltage = 0,
+            .min_multi = 0,
+            .max_multi = 0
+        },
+        /* Has PCI but no user-facing slots. */
+        .bus_flags = MACHINE_PCI,
+        .flags = MACHINE_PS2_KBC | MACHINE_IDE | MACHINE_VIDEO | MACHINE_APM | MACHINE_PCI_INTERNAL,
+        .ram = {
+            .min = 2048,
+            .max = 65536,
+            .step = 2048
+        },
+        .nvrmask = 127,
+        .kbc_device = NULL,
+        .kbc_p1 = 0xff,
+        .gpio = 0xffffffff,
+        .gpio_acpi = 0xffffffff,
+        .device = &sb486pv_device,
+        .fdc_device = NULL,
+        .sio_device = NULL,
+        .vid_device = &gd5436_onboard_pci_device,
         .snd_device = NULL,
         .net_device = NULL
     },
@@ -11505,7 +11707,7 @@ const machine_t machines[] = {
     /* SiS 5501 */
     /* Has the Lance LT38C41 KBC. */
     {
-        .name = "[SiS 5501] Chaintech 5SBM2 (M103)",
+        .name = "[SiS 5501] Chaintech 5SBM/5SBM2 (M103)",
         .internal_name = "5sbm2",
         .type = MACHINE_TYPE_SOCKET7_3V,
         .chipset = MACHINE_CHIPSET_SIS_5501,
@@ -11528,7 +11730,7 @@ const machine_t machines[] = {
         .flags = MACHINE_IDE_DUAL | MACHINE_APM,
         .ram = {
             .min = 8192,
-            .max = 262144,
+            .max = 131072,
             .step = 8192
         },
         .nvrmask = 255,
@@ -11536,7 +11738,7 @@ const machine_t machines[] = {
         .kbc_p1 = 0xff,
         .gpio = 0xffffffff,
         .gpio_acpi = 0xffffffff,
-        .device = NULL,
+        .device = &c5sbm2_device,
         .fdc_device = NULL,
         .sio_device = NULL,
         .vid_device = NULL,
