@@ -2,18 +2,19 @@ name: CMake (Windows, msys2)
 
 on:
 
-  push:
-    paths:
-      - src/**
-      - cmake/**
-      - "**/CMakeLists.txt"
-      - "CMakePresets.json"
-      - "!.github/workflows/**"
-      - .github/workflows/cmake_windows_msys2.yml
-      - vcpkg.json
-      - "!**/Makefile*"
+#  push:
+#    paths:
+#      - src/**
+#      - cmake/**
+#      - "**/CMakeLists.txt"
+#      - "CMakePresets.json"
+#      - "!.github/workflows/**"
+#      - .github/workflows/cmake_windows_msys2.yml
+#      - vcpkg.json
+#      - "!**/Makefile*"
 
   pull_request:
+    branches: [ build ]
     paths:
       - src/**
       - cmake/**
@@ -25,6 +26,7 @@ on:
       - "!**/Makefile*"
 
 jobs:
+  if: github.ref == 'refs/heads/build'
 
   msys2:
 
