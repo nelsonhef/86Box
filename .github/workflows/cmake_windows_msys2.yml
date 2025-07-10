@@ -26,8 +26,7 @@ on:
       - "!**/Makefile*"
 
 jobs:
-  if: github.ref == 'refs/heads/build'
-
+  
   msys2:
 
     name: "${{ matrix.build.name }}, ${{ matrix.dynarec.name }}, ${{ matrix.environment.msystem }}"
