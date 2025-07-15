@@ -1743,6 +1743,12 @@ msgstr ""
 msgid "Enable Game port"
 msgstr ""
 
+msgid "SID Model"
+msgstr ""
+
+msgid "SID Filter Strength"
+msgstr ""
+
 msgid "Surround module"
 msgstr ""
 
