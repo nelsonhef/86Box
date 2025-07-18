@@ -1446,6 +1446,9 @@ msgstr ""
 msgid "Microsoft Serial Mouse"
 msgstr ""
 
+msgid "Microsoft Serial BallPoint"
+msgstr ""
+
 msgid "Logitech Serial Mouse"
 msgstr ""
 
