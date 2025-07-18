@@ -1458,6 +1458,9 @@ msgstr ""
 msgid "3M MicroTouch (Serial)"
 msgstr ""
 
+msgid "Default Baud rate"
+msgstr ""
+
 msgid "[COM] Standard Hayes-compliant Modem"
 msgstr ""
 
