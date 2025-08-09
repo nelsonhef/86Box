@@ -2667,6 +2667,27 @@ msgstr "Abrir fila da &impressora..."
 msgid "Set &icon..."
 msgstr "&Definir ícone..."
 
+msgid "C&lone..."
+msgstr "&Clonar..."
+
+msgid "Virtual machine \"%1\" (%2) will be cloned into:"
+msgstr "A máquina virtual \"%1\" (%2) será clonada em:"
+
+msgid "Directory %1 already exists"
+msgstr "O diretório %1 já existe"
+
+msgid "You cannot use the following characters in the name: %1"
+msgstr "Você não pode usar os seguintes caracteres no nome: %1"
+
+msgid "Clone"
+msgstr "Clonar"
+
+msgid "Failed to create directory for cloned VM"
+msgstr "Falha ao criar o diretório para a VM clonada"
+
+msgid "Failed to clone VM."
+msgstr "Falha ao clonar VM."
+
 msgid "&Kill"
 msgstr "&Matar"
 
