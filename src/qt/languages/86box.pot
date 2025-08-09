@@ -2489,3 +2489,312 @@ msgstr ""
 
 msgid "Hostname:"
 msgstr ""
+
+msgid "Add new system wizard"
+msgstr ""
+
+msgid "This is the into page."
+msgstr ""
+
+msgid "No help has been added yet, you're on your own."
+msgstr ""
+
+msgid "Did you click help twice?"
+msgstr ""
+
+msgid "Add new system wizard help"
+msgstr ""
+
+msgid "Introduction"
+msgstr ""
+
+msgid "This will help you add a new system to 86Box."
+msgstr ""
+
+msgid "New configuration"
+msgstr ""
+
+msgid "Use existing configuration"
+msgstr ""
+
+msgid "Paste the contents of the existing configuration file into the box below."
+msgstr ""
+
+msgid "Load configuration from file"
+msgstr ""
+
+msgid "Choose configuration file"
+msgstr ""
+
+msgid "86Box configuration files (86box.cfg)"
+msgstr ""
+
+msgid "Configuration read failed"
+msgstr ""
+
+msgid "Unable to open the selected configuration file for reading: %1"
+msgstr ""
+
+msgid "System name and location"
+msgstr ""
+
+msgid "Enter the name of the system and choose the location"
+msgstr ""
+
+msgid "System name"
+msgstr ""
+
+msgid "Enter the name of the system"
+msgstr ""
+
+msgid "System Name"
+msgstr ""
+
+msgid "System Location"
+msgstr ""
+
+msgid "Display Name (optional)"
+msgstr ""
+
+msgid "Please enter a system name"
+msgstr ""
+
+msgid "System name cannot contain certain characters"
+msgstr ""
+
+msgid "System name already exists"
+msgstr ""
+
+msgid "Please enter a directory for the system"
+msgstr ""
+
+msgid "Directory does not exist"
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "The wizard will now launch the configuration for the new system."
+msgstr ""
+
+msgid "System name:"
+msgstr ""
+
+msgid "System location:"
+msgstr ""
+
+msgid "Display name:"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "Storage"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Ports"
+msgstr ""
+
+msgid "Other devices"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Force shutdown"
+msgstr ""
+
+msgid "Settings..."
+msgstr ""
+
+msgid "Ctrl+Alt+Del"
+msgstr ""
+
+msgid "Not running"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Keyboard"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "Joystick"
+msgstr ""
+
+msgid "Serial ports"
+msgstr ""
+
+msgid "Parallel ports"
+msgstr ""
+
+msgid "ISA RTC"
+msgstr ""
+
+msgid "ISA RAM"
+msgstr ""
+
+msgid "ISA ROM"
+msgstr ""
+
+msgid "No screenshot"
+msgstr ""
+
+msgid "waiting"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Context Menu"
+msgstr ""
+
+msgid "Change &display name..."
+msgstr ""
+
+msgid "&Open folder..."
+msgstr ""
+
+msgid "Open &printer tray..."
+msgstr ""
+
+msgid "Set &icon..."
+msgstr ""
+
+msgid "&Kill"
+msgstr ""
+
+msgid "Select an icon"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Killing a virtual machine can cause data loss. Only do this if the 86Box process gets stuck.\n\nDo you really wish to kill the virtual machine \"%1\"?"
+msgstr ""
+
+msgid "&Delete"
+msgstr ""
+
+msgid "Show &config file"
+msgstr ""
+
+msgid "Set display name"
+msgstr ""
+
+msgid "Enter the new display name (blank to reset)"
+msgstr ""
+
+msgid "Directory in use"
+msgstr ""
+
+msgid "The selected directory is already in use. Please select a different directory."
+msgstr ""
+
+msgid "Create directory failed"
+msgstr ""
+
+msgid "Unable to create the directory for the new system"
+msgstr ""
+
+msgid "Configuration write failed"
+msgstr ""
+
+msgid "Unable to open the configuration file at %1 for writing"
+msgstr ""
+
+msgid "Error adding system"
+msgstr ""
+
+msgid "Abnormal program termination while creating new system: exit code %1, exit status %2.\n\nThe system will not be added."
+msgstr ""
+
+msgid "Do you really want to delete the virtual machine \"%1\" and all its files? This action cannot be undone!"
+msgstr ""
+
+msgid "Remove directory failed"
+msgstr ""
+
+msgid "Some files in the machine's directory were unable to be deleted. Please delete them manually."
+msgstr ""
+
+msgid "total"
+msgstr ""
+
+msgid "Build"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "An update to 86Box is available"
+msgstr ""
+
+msgid "%1 VM Manager"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "%1 machine(s) are currently active. Are you sure you want to exit the VM manager anyway?"
+msgstr ""
+
+msgid "Searching for VMs..."
+msgstr ""
+
+msgid "Found %1"
+msgstr ""
+
+msgid "IBM PS/55 Display Adapter Graphics"
+msgstr ""
+
+msgid "3Dfx Voodoo 2"
+msgstr ""
+
+msgid "%n disk(s)"
+msgstr ""
+
+msgid "GiB"
+msgstr ""
+
+msgid "Disk %1: "
+msgstr ""
+
+msgid "No disks"
+msgstr ""
+
+msgid "Powered Off"
+msgstr ""
+
+msgid "Paused"
+msgstr ""
+
+msgid "Paused (Waiting)"
+msgstr ""
+
+msgid "Unknown Status"
+msgstr ""
+
+msgid "No Machines Found!"
+msgstr ""
+
+msgid "Type some notes here"
+msgstr ""
+
+msgid "System Directory:"
+msgstr ""
+
+msgid "Choose directory"
+msgstr ""
+
+msgid "Check for updates on startup"
+msgstr ""
+
+msgid "Use regular expressions in search box"
+msgstr ""
