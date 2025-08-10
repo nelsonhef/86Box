@@ -176,7 +176,7 @@ VMManagerMain::VMManagerMain(QWidget *parent) :
                     const char illegalChars[] = "\\/";
 #endif
                     for (const auto& curChar : text) {
-                        for (int i = 0; i < sizeof(illegalChars) - 1; i++) {
+                        for (size_t i = 0; i < sizeof(illegalChars) - 1; i++) {
                             if (illegalChars[i] == curChar) {
                                 goto illegal_chars;
                             }
@@ -198,7 +198,7 @@ dir_already_exists:
                     return;
 illegal_chars:
                     QString illegalCharsDisplay;
-                    for (int i = 0; i < sizeof(illegalChars) - 1; i++) {
+                    for (size_t i = 0; i < sizeof(illegalChars) - 1; i++) {
                         illegalCharsDisplay.push_back(illegalChars[i]);
                         illegalCharsDisplay.push_back(' ');
                     }
@@ -286,6 +286,21 @@ illegal_chars:
                 }
             });
             killIcon.setEnabled(selected_sysconfig->process->state() == QProcess::Running);
+
+            QAction clrNvram(tr("&Wipe NVRAM"));
+            contextMenu.addAction(&clrNvram);
+            connect(&clrNvram, &QAction::triggered, [this, parent] {
+                QMessageBox msgbox(QMessageBox::Warning, tr("Warning"), tr("This will delete all NVRAM (and related) files of the virtual machine located in the \"nvr\" subdirectory. You'll have to reconfigure the BIOS (and possibly other devices inside the VM) settings again if applicable.\n\nAre you sure you want to wipe all NVRAM contents of the virtual machine \"%1\"?").arg(selected_sysconfig->displayName), QMessageBox::StandardButton::Yes | QMessageBox::StandardButton::No, parent);
+                msgbox.exec();
+                if (msgbox.result() == QMessageBox::Yes) {
+                    if (QDir(selected_sysconfig->config_dir + "/nvr/").removeRecursively())
+                        QMessageBox::information(this, tr("Success"), tr("Successfully wiped the NVRAM contents of the virtual machine \"%1\"").arg(selected_sysconfig->displayName));
+                    else {
+                        QMessageBox::critical(this, tr("Error"), tr("An error occured trying to wipe the NVRAM contents of the virtual machine \"%1\"").arg(selected_sysconfig->displayName));
+                    }
+                }
+            });
+            clrNvram.setEnabled(selected_sysconfig->process->state() == QProcess::NotRunning);
 
             QAction deleteAction(tr("&Delete"));
             contextMenu.addAction(&deleteAction);
