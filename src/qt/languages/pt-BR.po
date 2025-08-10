@@ -2700,6 +2700,24 @@ msgstr "Aviso"
 msgid "Killing a virtual machine can cause data loss. Only do this if the 86Box process gets stuck.\n\nDo you really wish to kill the virtual machine \"%1\"?"
 msgstr "Matar uma máquina virtual pode causar perda de dados. Só faça isso se o processo do 86Box travar.\n\nTem certeza que deseja matar a máquina virtual \"%1\"?"
 
+msgid "&Wipe NVRAM"
+msgstr "&Limpar NVRAM"
+
+msgid "This will delete all NVRAM (and related) files of the virtual machine located in the \"nvr\" subdirectory. You'll have to reconfigure the BIOS (and possibly other devices inside the VM) settings again if applicable.\n\nAre you sure you want to wipe all NVRAM contents of the virtual machine \"%1\"?"
+msgstr "Isso irá apagar todos os arquivos NVRAM (e relacionados) da máquina virtual localizada no subdiretório \"nvr\". Você terá que reconfigurar as configurações do BIOS (e possívelmente outros dispositivos dentro da VM) novamente se aplicável.\n\nTem certeza que quer apagar todo o conteúdo NVRAM da máquina virtual \"%1\"?"
+
+msgid "Success"
+msgstr "Sucesso"
+
+msgid "Successfully wiped the NVRAM contents of the virtual machine \"%1\""
+msgstr "Conteúdo NVRAM da máquina virtual \"%1\" apagado com sucesso"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "An error occured trying to wipe the NVRAM contents of the virtual machine \"%1\""
+msgstr "Um erro ocorreu ao tentar apagar o conteúdo NVRAM da máquina virtual \"%1\""
+
 msgid "&Delete"
 msgstr "&Apagar"
 
