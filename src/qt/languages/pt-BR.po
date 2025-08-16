@@ -2449,10 +2449,10 @@ msgid "Composite"
 msgstr "Composto"
 
 msgid "True color"
-msgstr ""
+msgstr "True color"
 
 msgid "Old"
-msgstr "Antiga"
+msgstr "Antigo"
 
 msgid "New"
 msgstr "Novo"
