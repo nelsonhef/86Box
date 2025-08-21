@@ -118,7 +118,7 @@ msgid "&Fullscreen"
 msgstr "&Tela cheia"
 
 msgid "Fullscreen &stretch mode"
-msgstr "Modo de redimensionamento da tela &cheia"
+msgstr "Modo de re&dimensionamento da tela cheia"
 
 msgid "&Full screen stretch"
 msgstr "&Tela cheia redimensionada"
