@@ -2,20 +2,20 @@ name: CMake (Windows, msys2)
 
 on:
 
-  push:
-    branches: [ "master" ]
-    paths:
-      - src/**
-      - cmake/**
-      - "**/CMakeLists.txt"
-      - "CMakePresets.json"
-      - "!.github/workflows/**"
-      - .github/workflows/cmake_windows_msys2.yml
-      - vcpkg.json
-      - "!**/Makefile*"
+#  push:
+#    branches: [ "master" ]
+#    paths:
+#      - src/**
+#      - cmake/**
+#      - "**/CMakeLists.txt"
+#      - "CMakePresets.json"
+#      - "!.github/workflows/**"
+#      - .github/workflows/cmake_windows_msys2.yml
+#      - vcpkg.json
+#      - "!**/Makefile*"
 
   pull_request:
-    branches: [ "master" ]
+    branches: [ "build" ]
     paths:
       - src/**
       - cmake/**
@@ -42,21 +42,21 @@ jobs:
       fail-fast: true
       matrix:
         build:
-#          - name: Regular
-#            preset: regular
+          - name: Regular
+            preset: regular
           - name: Debug
             preset: dev_debug
             slug: -Debug
-          - name: Dev
-            preset: development
-            slug: -Dev
+#          - name: Dev
+#            preset: development
+#            slug: -Dev
         dynarec:
           - name: ODR
             new: off
             slug: -ODR
-          - name: NDR
-            new: on
-            slug: -NDR
+#          - name: NDR
+#            new: on
+#            slug: -NDR
         ui:
           - name: Qt GUI
             qt: on
@@ -83,10 +83,10 @@ jobs:
 #            prefix: mingw-w64-ucrt-x86_64
 #            toolchain: ./cmake/flags-gcc-x86_64.cmake
 #            slug: "UCRT64"
-          - msystem: CLANGARM64
-            toolchain: ./cmake/flags-gcc-aarch64.cmake
-            slug: -arm64
-            runner: windows-11-arm
+#          - msystem: CLANGARM64
+#            toolchain: ./cmake/flags-gcc-aarch64.cmake
+#            slug: -arm64
+#            runner: windows-11-arm
         exclude:
           - dynarec:
               new: off
