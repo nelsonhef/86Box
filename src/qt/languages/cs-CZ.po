@@ -18,11 +18,11 @@ msgstr "&Pravý Ctrl je levý Alt"
 msgid "&Hard Reset..."
 msgstr "&Resetovat"
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "P&ozastavit"
@@ -1055,9 +1055,6 @@ msgstr "Obnovit"
 
 msgid "Pause execution"
 msgstr "Pozastavit"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Stisknout Ctrl+Alt+Delete"

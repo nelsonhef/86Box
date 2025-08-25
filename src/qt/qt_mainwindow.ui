@@ -325,7 +325,7 @@
      <normaloff>:/menuicons/qt/icons/send_cad.ico</normaloff>:/menuicons/qt/icons/send_cad.ico</iconset>
    </property>
    <property name="text">
-    <string>&amp;Ctrl+Alt+Del</string>
+    <string>Ctrl+Alt+Del</string>
    </property>
    <property name="toolTip">
     <string>Ctrl+Alt+Del</string>
@@ -346,7 +346,7 @@
      <normaloff>:/menuicons/qt/icons/send_cae.ico</normaloff>:/menuicons/qt/icons/send_cae.ico</iconset>
    </property>
    <property name="text">
-    <string>Ctrl+Alt+&amp;Esc</string>
+    <string>Ctrl+Alt+Esc</string>
    </property>
    <property name="iconVisibleInMenu">
     <bool>false</bool>

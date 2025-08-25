@@ -18,11 +18,11 @@ msgstr "&Oikea CTRL on vasen ALT"
 msgid "&Hard Reset..."
 msgstr "&Uudelleenkäynnistys (kylmä)..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Tauko"
@@ -774,11 +774,11 @@ msgstr "Portit (COM & LPT)"
 msgid "Ports"
 msgstr "Portit"
 
-msgid "Serial ports"
-msgstr "Sarjaportit"
+msgid "Serial ports:"
+msgstr "Sarjaportit:"
 
-msgid "Parallel ports"
-msgstr "Rinnakkaisportit"
+msgid "Parallel ports:"
+msgstr "Rinnakkaisportit:"
 
 msgid "Storage controllers"
 msgstr "Tallennusohjaimet"
@@ -1055,9 +1055,6 @@ msgstr "Jatka suoritusta"
 
 msgid "Pause execution"
 msgstr "Pysäytä suoritus"
-
-msgid "Ctrl+Alt+Del"
-msgstr ""
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Paina Ctrl+Alt+Del"
@@ -2826,16 +2823,13 @@ msgstr "Kytkin:"
 msgid "Hub Mode"
 msgstr "Hubitila"
 
-msgid "Isäntänimi:"
+msgid "Hostname:"
 msgstr ""
 
-msgid "ISA RTC"
+msgid "ISA RAM:"
 msgstr ""
 
-msgid "ISA RAM"
-msgstr ""
-
-msgid "ISA ROM"
+msgid "ISA ROM:"
 msgstr ""
 
 msgid "&Wipe NVRAM"

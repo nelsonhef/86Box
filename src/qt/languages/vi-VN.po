@@ -18,11 +18,11 @@ msgstr "Gắn ALT trái vào CTRL ph&ải"
 msgid "&Hard Reset..."
 msgstr "Buộc khởi độn&g lại"
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "Tạm &dừng"
@@ -1055,9 +1055,6 @@ msgstr "Tiếp tục chạy thực thi"
 
 msgid "Pause execution"
 msgstr "Tạm dừng thực thi"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Nhấn Ctrl+Alt+Del"

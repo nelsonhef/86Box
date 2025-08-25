@@ -18,11 +18,11 @@ msgstr "&Die rechte Strg-Taste ist die linke Alt-Taste"
 msgid "&Hard Reset..."
 msgstr "&Kaltstart..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Strg+Alt+Entf"
+msgid "Ctrl+Alt+Del"
+msgstr "Strg+Alt+Entf"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Strg+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Strg+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pausieren"
@@ -1055,9 +1055,6 @@ msgstr "Fortsetzen"
 
 msgid "Pause execution"
 msgstr "Pausieren"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Strg+Alt+Entf"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Strg+Alt+Entf drücken"

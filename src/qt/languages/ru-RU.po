@@ -18,11 +18,11 @@ msgstr "&Правый CTRL - это левый ALT"
 msgid "&Hard Reset..."
 msgstr "&Холодная перезагрузка..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Пауза"
@@ -1055,9 +1055,6 @@ msgstr "Возобновить выполнение"
 
 msgid "Pause execution"
 msgstr "Приостановить выполнение"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Нажать Ctrl+Alt+Del"

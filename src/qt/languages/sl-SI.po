@@ -18,11 +18,11 @@ msgstr "&Desni CTRL je levi ALT"
 msgid "&Hard Reset..."
 msgstr "&Ponovni zagon..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Premor"
@@ -1055,9 +1055,6 @@ msgstr "Nadaljuj izvajanje"
 
 msgid "Pause execution"
 msgstr "Prekini izvajanje"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Pritisni Ctrl+Alt+Del"

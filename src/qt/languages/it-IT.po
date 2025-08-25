@@ -18,11 +18,11 @@ msgstr "CTRL &destro è ALT sinistro"
 msgid "&Hard Reset..."
 msgstr "&Riavvia..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Canc"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Canc"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pausa"
@@ -1055,9 +1055,6 @@ msgstr "Riprendi l'esecuzione"
 
 msgid "Pause execution"
 msgstr "Sospendi l'esecuzione"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Canc"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Premere Ctrl+Alt+Canc"

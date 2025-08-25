@@ -18,11 +18,11 @@ msgstr "CTR&L direito é o ALT esquerdo"
 msgid "&Hard Reset..."
 msgstr "&Reinicialização completa..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+&Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pausar"
@@ -1055,9 +1055,6 @@ msgstr "Continuar a execução"
 
 msgid "Pause execution"
 msgstr "Pausar a execução"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Pressionar Ctrl+Alt+Del"

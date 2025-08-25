@@ -18,11 +18,11 @@ msgstr "将右 CTRL 键映射为左 ALT 键(&R)"
 msgid "&Hard Reset..."
 msgstr "硬重置(&H)..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del(&C)"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+Esc(&E)"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "暂停(&P)"
@@ -1055,9 +1055,6 @@ msgstr "恢复执行"
 
 msgid "Pause execution"
 msgstr "暂停执行"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "按下 Ctrl+Alt+Del"

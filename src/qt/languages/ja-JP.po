@@ -18,11 +18,11 @@ msgstr "右CTRLを左ALTへ変換(&R)"
 msgid "&Hard Reset..."
 msgstr "ハード リセット(&H)..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del(&C)"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+Esc(&E)"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "一時停止(&P)"
@@ -1055,9 +1055,6 @@ msgstr "実行を再開"
 
 msgid "Pause execution"
 msgstr "実行を一時停止"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Ctrl+Alt+DELを押す"

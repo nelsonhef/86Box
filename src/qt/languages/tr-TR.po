@@ -18,11 +18,11 @@ msgstr "&Sağ CTRL tuşunu sol ALT tuşu olarak ayarla"
 msgid "&Hard Reset..."
 msgstr "Yeniden başlamaya &zorla..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+&Alt+Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Duraklat"
@@ -1055,9 +1055,6 @@ msgstr "Çalıştırmayı sürdür"
 
 msgid "Pause execution"
 msgstr "Çalıştırmayı duraklat"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Ctrl+Alt+Del tuşlarına bas"
