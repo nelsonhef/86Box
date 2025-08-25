@@ -2824,13 +2824,13 @@ msgid "Hub Mode"
 msgstr "Hubitila"
 
 msgid "Hostname:"
-msgstr ""
+msgstr "Isäntänimi:"
 
 msgid "ISA RAM:"
-msgstr ""
+msgstr "ISA RAM:"
 
 msgid "ISA ROM:"
-msgstr ""
+msgstr "ISA ROM:"
 
 msgid "&Wipe NVRAM"
 msgstr "&Tyhjennä NVRAM"
