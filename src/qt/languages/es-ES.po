@@ -18,11 +18,11 @@ msgstr "CTRL &derecho es ALT izquierdo"
 msgid "&Hard Reset..."
 msgstr "&Hard Reset..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pausa"
@@ -1055,9 +1055,6 @@ msgstr "Retomar la ejecución"
 
 msgid "Pause execution"
 msgstr "Pausar la ejecución"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Pulsar Ctrl+Alt+Supr"

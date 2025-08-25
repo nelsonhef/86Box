@@ -18,11 +18,11 @@ msgstr "&Rechtse CTRL is linkse ALT"
 msgid "&Hard Reset..."
 msgstr "&Harde Reset..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pauze"
@@ -1055,9 +1055,6 @@ msgstr "Hervat executie"
 
 msgid "Pause execution"
 msgstr "Pauze executie"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Druk op Ctrl+Alt+Del"

@@ -18,11 +18,11 @@ msgstr "&Höger CTRL är vänster ALT"
 msgid "&Hard Reset..."
 msgstr "&Hård omstart..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "&Pausa"
@@ -1055,9 +1055,6 @@ msgstr "Fortsätt exekvering"
 
 msgid "Pause execution"
 msgstr "Pausa exekvering"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Tryck på Ctrl+Alt+Del"

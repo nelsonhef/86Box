@@ -18,10 +18,10 @@ msgstr ""
 msgid "&Hard Reset..."
 msgstr ""
 
-msgid "&Ctrl+Alt+Del"
+msgid "Ctrl+Alt+Del"
 msgstr ""
 
-msgid "Ctrl+Alt+&Esc"
+msgid "Ctrl+Alt+Esc"
 msgstr ""
 
 msgid "&Pause"
@@ -1054,9 +1054,6 @@ msgid "Resume execution"
 msgstr ""
 
 msgid "Pause execution"
-msgstr ""
-
-msgid "Ctrl+Alt+Del"
 msgstr ""
 
 msgid "Press Ctrl+Alt+Del"

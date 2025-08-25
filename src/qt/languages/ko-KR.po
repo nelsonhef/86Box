@@ -18,11 +18,11 @@ msgstr "우측CTRL로 좌측ALT 입력(&R)"
 msgid "&Hard Reset..."
 msgstr "재시작(&H)..."
 
-msgid "&Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del(&C)"
+msgid "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Del"
 
-msgid "Ctrl+Alt+&Esc"
-msgstr "Ctrl+Alt+Esc(&E)"
+msgid "Ctrl+Alt+Esc"
+msgstr "Ctrl+Alt+Esc"
 
 msgid "&Pause"
 msgstr "일시정지(&P)"
@@ -1055,9 +1055,6 @@ msgstr "실행 재개"
 
 msgid "Pause execution"
 msgstr "실행 일시 중지"
-
-msgid "Ctrl+Alt+Del"
-msgstr "Ctrl+Alt+Del"
 
 msgid "Press Ctrl+Alt+Del"
 msgstr "Ctrl+Alt+Del"
