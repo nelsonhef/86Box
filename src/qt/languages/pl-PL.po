@@ -841,8 +841,10 @@ msgstr "Sieć"
 msgid "Ports (COM & LPT)"
 msgstr "Porty (COM & LPT)"
 
-msgid "Ports"
-msgstr "Porty"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "Porty"
 
 msgid "Serial ports"
 msgstr "Porty szeregowe"
@@ -2246,6 +2248,9 @@ msgstr "Numer seryjny"
 
 msgid "Host ID"
 msgstr "Identyfikator hosta"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "Adres FDC"

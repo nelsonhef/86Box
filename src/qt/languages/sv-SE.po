@@ -840,8 +840,10 @@ msgstr "Nätverk"
 msgid "Ports (COM & LPT)"
 msgstr "Portar (COM & LPT)"
 
-msgid "Ports"
-msgstr "Portar"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "Portar"
 
 msgid "Serial ports"
 msgstr "Serieportar"
@@ -2240,6 +2242,9 @@ msgstr "Serienummer"
 
 msgid "Host ID"
 msgstr "Värd-ID"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "Adress till diskettstyrenhet"

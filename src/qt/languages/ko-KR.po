@@ -847,8 +847,10 @@ msgstr "네트워크"
 msgid "Ports (COM & LPT)"
 msgstr "포트 (COM & LPT)"
 
-msgid "Ports"
-msgstr "포트"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "포트"
 
 msgid "Serial ports"
 msgstr "시리얼 포트"
@@ -2300,6 +2302,9 @@ msgstr "일련 번호"
 
 msgid "Host ID"
 msgstr "호스트 ID"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "FDC 주소"

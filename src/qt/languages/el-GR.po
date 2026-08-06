@@ -840,8 +840,10 @@ msgstr "Δίκτυο"
 msgid "Ports (COM & LPT)"
 msgstr "Θύρες (COM & LPT)"
 
-msgid "Ports"
-msgstr "Θύρες"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "Θύρες"
 
 msgid "Serial ports"
 msgstr "Σειριακές θύρες"
@@ -2273,6 +2275,9 @@ msgstr "Σειριακός Αριθμός"
 
 msgid "Host ID"
 msgstr "ID οικοδεσπότη"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "Διεύθυνση FDC"

@@ -841,8 +841,10 @@ msgstr "Nối mạng"
 msgid "Ports (COM & LPT)"
 msgstr "Cổng (COM và LPT)"
 
-msgid "Ports"
-msgstr "Cổng"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "Cổng"
 
 msgid "Serial ports"
 msgstr "Cổng serial"
@@ -2236,6 +2238,9 @@ msgstr "Số seri"
 
 msgid "Host ID"
 msgstr "ID máy chủ"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "Địa chỉ FDC"

@@ -840,8 +840,10 @@ msgstr "Síť"
 msgid "Ports (COM & LPT)"
 msgstr "COM a LPT porty"
 
-msgid "Ports"
-msgstr "Porty"
+msgid "Port"
+msgid_plural "Ports"
+msgstr[0] ""
+msgstr[1] "Porty"
 
 msgid "Serial ports"
 msgstr "Sériové porty"
@@ -2280,6 +2282,9 @@ msgstr "Sériové číslo"
 
 msgid "Host ID"
 msgstr "ID hostitele"
+
+msgid "Host"
+msgstr ""
 
 msgid "FDC Address"
 msgstr "Adresa FDC"
