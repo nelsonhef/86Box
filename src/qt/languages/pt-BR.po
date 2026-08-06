@@ -843,7 +843,7 @@ msgstr "Portas (COM & LPT)"
 
 msgid "Port"
 msgid_plural "Portas"
-msgstr[0] ""
+msgstr[0] "Porta"
 msgstr[1] "Portas"
 
 msgid "Serial ports"
@@ -1787,7 +1787,7 @@ msgid "&Pen"
 msgstr "C&aneta"
 
 msgid "&Host CD/DVD Drive (%1)"
-msgstr "&Unidade de CD/DVD do anfitrião (%1)"
+msgstr "&Unidade de CD/DVD do hospedeiro (%1)"
 
 msgid "&Connected"
 msgstr "&Conectado"
@@ -1799,7 +1799,7 @@ msgid "Create…"
 msgstr "Criar…"
 
 msgid "Host CD/DVD Drive (%1)"
-msgstr "Unidade de CD/DVD do anfitrião (%1)"
+msgstr "Unidade de CD/DVD do hospedeiro (%1)"
 
 msgid "Unknown Bus"
 msgstr "Barramento desconhecido"
@@ -2243,10 +2243,10 @@ msgid "Serial Number"
 msgstr "Número de série"
 
 msgid "Host ID"
-msgstr "ID do anfitrião"
+msgstr "ID do hospedeiro"
 
 msgid "Host"
-msgstr ""
+msgstr "Hospedeiro"
 
 msgid "FDC Address"
 msgstr "Endereço da FDC"
@@ -3080,7 +3080,7 @@ msgid "Hub Mode"
 msgstr "Modo Hub"
 
 msgid "Hostname:"
-msgstr "Nome do anfitrião:"
+msgstr "Nome do hospedeiro:"
 
 msgid "ISA RAM:"
 msgstr "RAM ISA:"
@@ -3442,19 +3442,19 @@ msgid "Sample rate:"
 msgstr "Taxa de amostragem:"
 
 msgid "Floppy tape drive"
-msgstr ""
+msgstr "Drive de fita por disquete"
 
 msgid "Floppy tape drive (QIC-117)"
-msgstr ""
+msgstr "Drive de fita por disquete (QIC-117)"
 
 msgid "Attaches a Colorado 250 tape drive to the floppy disk controller's cable."
-msgstr ""
+msgstr "Conecta um drive de fita Colorado 250 ao cabo do controlador de drive de disquete."
 
 msgid "Drive select:"
-msgstr ""
+msgstr "Seleção de drive"
 
 msgid "The drive select line the tape drive answers to. Any floppy drive configured on the same line is disconnected."
-msgstr ""
+msgstr "A linha do drive que o drive de fita responde. Qualquer drive de disquete configurado na mesma linha será desconectado."
 
 msgid "Tape image:"
-msgstr ""
+msgstr "Imagem de fita:"
